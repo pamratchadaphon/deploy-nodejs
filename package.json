@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "ratchadapgon tamnamueng",
   "license": "ISC",
@@ -18,8 +18,11 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.9.7",
+    "netlify-cli": "^17.33.4",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^3.1.0",
     "path": "^0.12.7",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "serverless-http": "^3.2.0"
   }
 }
